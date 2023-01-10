@@ -1,0 +1,17 @@
+:root {
+    --yellow: #FFB400;
+    --paragraph: #767676;
+    --black: #2B2B2B;
+    --active: #7EB942;
+    --white: #FFFFFF;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+}
