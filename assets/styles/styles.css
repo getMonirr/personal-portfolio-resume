@@ -187,7 +187,8 @@ main {
   align-items: center;
   justify-content: center;
 }
-.profile-content hr , .edu-items hr {
+.profile-content hr,
+.edu-items hr {
   border: 1.5px solid var(--border-color);
   width: 100%;
   margin: 25px 0;
@@ -559,7 +560,8 @@ main {
 .course-details {
   width: 200px;
 }
-.course-name, .certification-title {
+.course-name,
+.certification-title {
   font-weight: 500;
   font-size: 18px;
   line-height: 123.6%;
@@ -575,21 +577,21 @@ main {
 }
 .certification-details {
   font-size: 15px;
-line-height: 24px;
-color: var(--paragraph);
+  line-height: 24px;
+  color: var(--paragraph);
 }
 .position {
   font-size: 15px;
-line-height: 24px;
-color: var(--black);
+  line-height: 24px;
+  color: var(--black);
 }
 .position span {
   font-size: 10px;
-line-height: 100.9%;
-color: var(--white);
-background: var(--yellow);
-padding: 4px;
-float: right;
+  line-height: 100.9%;
+  color: var(--white);
+  background: var(--yellow);
+  padding: 4px;
+  float: right;
 }
 /* portfolio section */
 .portfolio-items {
@@ -615,7 +617,7 @@ float: right;
   width: 100%;
   opacity: 0;
   background-color: var(--yellow);
-  transition: all .5s;
+  transition: all 0.5s;
 }
 .overlay a i {
   font-size: 60px;
@@ -626,10 +628,12 @@ float: right;
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-.portfolio-item:hover .overlay, .portfolio-item.active .overlay{
+.portfolio-item:hover .overlay,
+.portfolio-item.active .overlay {
   opacity: 0.7;
 }
-.portfolio-item:hover a i,.portfolio-item.active a i{
+.portfolio-item:hover a i,
+.portfolio-item.active a i {
   color: var(--black);
 }
 .portfolio-item img {
@@ -653,6 +657,46 @@ float: right;
   text-decoration: none;
   color: var(--black);
 }
-.filter-menu ul li a:hover, .filter-menu ul li a.active {
+.filter-menu ul li a:hover,
+.filter-menu ul li a.active {
   color: var(--yellow);
+}
+/* blog section */
+.blog-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.blog {
+  background-color: var(--white);
+}
+.blog img {
+  width: 100%;
+  height: 290px;
+  object-fit: cover;
+  object-position: center;
+}
+.blog-wrapper {
+  padding: 25px;
+}
+.blog-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  color: var(--black);
+}
+.blog-details {
+  font-size: 15px;
+  line-height: 24px;
+  color: var(--paragraph);
+  margin: 10px 0;
+}
+.learn-more {
+  border: 0;
+  background: none;
+  color: var(--yellow);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  cursor: pointer;
 }
