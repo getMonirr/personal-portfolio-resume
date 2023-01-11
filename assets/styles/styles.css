@@ -284,7 +284,8 @@ main {
 .lang-item {
   margin-top: 15px;
 }
-.lang-item label, .extra span {
+.lang-item label,
+.extra span {
   font-size: 15px;
   line-height: 24px;
   color: var(--paragraph);
@@ -294,7 +295,7 @@ main {
   border-radius: 4px;
   padding: 2px;
   border: 1px solid;
-  height: 11px;
+  height: 10px;
 }
 
 .language progress {
@@ -317,7 +318,7 @@ main {
   max-height: 280px;
   overflow-y: scroll;
 }
-.skill-scroll::-webkit-scrollbar{
+.skill-scroll::-webkit-scrollbar {
   display: none;
 }
 /* extra */
@@ -334,4 +335,11 @@ main {
 }
 .download-cv button {
   width: 100%;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+}
+.download-cv button img {
+  margin-left: 20px;
+  vertical-align: bottom;
 }
