@@ -1,16 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personall Developer portfolio resume</title>
+    <!-- font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/8e77f3c3f9.js" crossorigin="anonymous"></script>
     <!-- custom css -->
     <link rel="stylesheet" href="./assets/styles/styles.css">
 </head>
+
 <body>
-    <!-- Profile section -->
+    <div class="website-container">
+        <!-- header are -->
+        <nav class="menu">
+            <div class="dark-mode">
+                <img src="./assets/Images/Icons/Contrastprt.svg" alt="dark mode icon">
+            </div>
+            <div class="nav-link">
+                <a class="active" href="#home"><img src="./assets/Images/Icons/Homeprt.svg" alt="home"><span>Home</span></a>
+                <a href="#services"><img src="./assets/Images/Icons/Servicesprt.svg"
+                        alt="Services"><span>Services</span></a>
+                <a href="#CV"><img src="./assets/Images/Icons/cvprt.svg" alt="CV"><span>Cv</span></a>
+                <a href="#portfolio"><img src="./assets/Images/Icons/Portfolioprt.svg"
+                        alt="portfolio"><span>Portfolio</span></a>
+                <a href="#blog"><img src="./assets/Images/Icons/Blogprt.svg" alt="blog"><span>Blog</span></a>
+                <a href="#contact"><img src="./assets/Images/Icons/Contactprt.svg"
+                        alt="contact"><span>Contact</span></a>
+            </div>
+            <div class="blank">
+            </div>
+        </nav>
+        <!-- profile section -->
+        <section class="profile-section">
+            <div class="profile-content">
+                <div class="profile-pic-wrapper">
+                    <img class="profice-picture" src="./assets/Images/Profile.jpg" alt="profile">
+                </div>
+                <div class="social-info">
+                    <h5 class="profile-name">Rayan Adlrdard</h5>
+                <p class="profile-description">Front-end Developer</p>
+                <ul>
+                    <a href="#"><img src="./assets/Images/Icons-facebookprt.svg" alt=""></a>
+                    <a href="#"><img src="./assets/Images/Icons-instagramprt.svg" alt=""></a>
+                    <a href="#"><img src="./assets/Images/Icons-twitterprt.svg" alt=""></a>
+                    <a href="#"><img src="./assets/Images/linked.svg" alt=""></a>
+                    <a href="#"><img src="./assets/Images/Icons-Youtubeprt.svg" alt=""></a>
+                    <a href="#"><img src="./assets/Images/Icons-dribbbleprt.svg" alt=""></a>
+                </ul>
+                </div>
+                <hr>
+                <div class="address">
+                    <p><span class="address-info"> Age:</span> <span class="right">24</span></p>
+                    <p><span class="address-info"> Residence:</span> <span class="right">BD</span></p>
+                    <p><span class="address-info"> Freelance:</span> <span class="right available">Available</span></p>
+                    <p><span class="address-info"> Address:</span> <span class="right">Dhaka,Bangladesh</span></p>
+                </div>
+                <hr>
+                <div class="skill-scroll">
+                    <div class="language">
+                        <h3 class="lang-title">Language</h3>
+                        <div class="lang-item">
+                            <label for="bangla">Bangla <span class="right">100%</span></label><br>
+                            <progress id="bangla" value="100" max="100">100%</progress>
+                        </div>
+                        <div class="lang-item">
+                            <label for="English">English <span class="right">80%</span></label><br>
+                            <progress id="English" value="80" max="100">80%</progress>
+                        </div>
+                        <div class="lang-item">
+                            <label for="Spanish">Spanish <span class="right">60%</span></label><br>
+                            <progress id="Spanish" value="60" max="100">60%</progress>
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- skill -->
+                    <div class="language">
+                        <h3 class="lang-title">Skill</h3>
+                        <div class="lang-item">
+                            <label for="bangla">HTML <span class="right">90%</span></label><br>
+                            <progress id="bangla" value="90" max="100">100%</progress>
+                        </div>
+                        <div class="lang-item">
+                            <label for="English">CSS <span class="right">80%</span></label><br>
+                            <progress id="English" value="80" max="100">80%</progress>
+                        </div>
+                        <div class="lang-item">
+                            <label for="Spanish">JavaScript <span class="right">60%</span></label><br>
+                            <progress id="Spanish" value="60" max="100">60%</progress>
+                        </div>
+                        <div class="lang-item">
+                            <label for="Spanish">PHP <span class="right">50%</span></label><br>
+                            <progress id="Spanish" value="50" max="100">60%</progress>
+                        </div>
+                        <div class="lang-item">
+                            <label for="Spanish">WordPress <span class="right">75%</span></label><br>
+                            <progress id="Spanish" value="75" max="100">60%</progress>
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- extra -->
+                    <div class="extra">
+                        <h3 class="lang-title">Extra Skill</h3>
+                        <ul>
+                            <li><img src="./assets/Images/Icons/extraicon.svg" alt="extra icon"><span> Bootstrap, Materialize</span></li>
+                            
+                            <li><img src="./assets/Images/Icons/extraicon.svg" alt="extra icon"><span> Stylus, Sass, Less</span></li>
+                            <li> <img src="./assets/Images/Icons/extraicon.svg" alt="extra icon"><span> Gulp, Webpack, Grunt</span></li>
+                            <li> <img src="./assets/Images/Icons/extraicon.svg" alt="extra icon"><span> GIT Knowledge</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="download-cv">
+                    <button class="btn-primary">Download Cv <img src="./assets/Images/Icons/downloadicon.svg" alt="download icon"></button>
+                </div>
+            </div>
+        </section>
+        <!-- main -->
+        <main>
+            <section class="hero-section">
+                <div class="hero-content">
+                    <h1 class="hero-title">I’m Rayan Adlrdard <span>Front-end</span> Developer </h1>
+                    <p class="hero-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, volutpat
+                        feugiat placerat lobortis. Natoque rutrum semper sed suspendisse nunc lectus.</p>
+                    <a href="#"><button class="btn-primary">Hire Me <i class="fa-solid fa-arrow-right"></i></button></a>
+                </div>
+                <img src="./assets/Images/person.png" alt="person image">
+            </section>
+        </main>
+    </div>
 </body>
+
 </html>
