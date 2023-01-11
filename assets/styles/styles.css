@@ -19,7 +19,7 @@ body {
   font-size: 16px;
   max-width: 1440px;
   margin: 0 auto;
-  background-color: var(--background-color);
+  background-color: var(--border-color);
 }
 /* layout */
 .website-container {
@@ -699,4 +699,115 @@ main {
   font-size: 18px;
   line-height: 123.6%;
   cursor: pointer;
+}
+/* contact-section */
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 70px;
+}
+.message {
+  width: 60%;
+}
+.message-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 123.6%;
+  color: var(--black);
+  margin-bottom: 50px;
+}
+form {
+  background-color: var(--white);
+  padding: 25px;
+}
+.form-group label {
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  color: var(--paragraph);
+  margin-bottom: 6px;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  height: 50px;
+  background-color: var(--border-color);
+  border: 0;
+  margin-bottom: 25px;
+}
+.form-group textarea {
+  height: 210px;
+  resize: none;
+}
+.contact-info {
+  width: 40%;
+}
+input[type="submit"] {
+  padding: 10px 25px;
+  border: 0;
+  background-color: var(--yellow);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+.contact-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+.contact-item {
+  background-color: var(--white);
+  padding: 25px;
+}
+.contact-item .img {
+  text-align: center;
+  margin-top: 10px;
+}
+.info p {
+  padding-top: 15px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  color: var(--paragraph);
+}
+.info p span {
+  float: right;
+  font-size: 15px;
+  line-height: 24px;
+  color: var(--paragraph);
+}
+.contact-item img {
+  background-color: var(--yellow);
+  padding: 8px;
+  border-radius: 50px;
+}
+/* map section */
+.map-section,.client-section  {
+  margin: 70px 0;
+}
+.map-section img {
+  width: 100%;
+  cursor: pointer;
+}
+/* client section */
+.client-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+/* footer */
+footer {
+  margin-top: 20px;
+}
+footer p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-transform: capitalize;
+  background-color: var(--white);
+  padding: 18px;
 }
