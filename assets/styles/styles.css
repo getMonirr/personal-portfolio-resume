@@ -187,7 +187,7 @@ main {
   align-items: center;
   justify-content: center;
 }
-.profile-content hr {
+.profile-content hr , .edu-items hr {
   border: 1.5px solid var(--border-color);
   width: 100%;
   margin: 25px 0;
@@ -532,8 +532,8 @@ main {
 }
 .designation {
   font-size: 15px;
-line-height: 24px;
-color: var(--paragraph);
+  line-height: 24px;
+  color: var(--paragraph);
 }
 .slider-navigation {
   margin-top: 50px;
@@ -541,9 +541,53 @@ color: var(--paragraph);
 }
 .slider-navigation i {
   margin-right: 10px;
-  font-size: .7rem;
+  font-size: 0.7rem;
   cursor: pointer;
 }
 .slider-navigation i.active {
   color: var(--yellow);
+}
+/* education section */
+.edu-items {
+  background: var(--white);
+  padding: 45px 35px;
+}
+.edu-item {
+  display: flex;
+  justify-content: space-between;
+}
+.course-details {
+  width: 200px;
+}
+.course-name, .certification-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  color: var(--black);
+  margin-bottom: 25px;
+  text-align-last: justify;
+}
+.certification-title {
+  text-align-last: unset;
+}
+.certification {
+  width: 530px;
+}
+.certification-details {
+  font-size: 15px;
+line-height: 24px;
+color: var(--paragraph);
+}
+.position {
+  font-size: 15px;
+line-height: 24px;
+color: var(--black);
+}
+.position span {
+  font-size: 10px;
+line-height: 100.9%;
+color: var(--white);
+background: var(--yellow);
+padding: 4px;
+float: right;
 }
