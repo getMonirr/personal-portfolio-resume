@@ -463,7 +463,7 @@ main {
   font-size: 14px;
   line-height: 17px;
   cursor: pointer;
-  transition: .5s;
+  transition: 0.5s;
 }
 .plan .price-btn:hover {
   background: var(--yellow);
@@ -487,4 +487,63 @@ main {
   left: 0;
   top: 0;
   padding: 3px 0;
+}
+/* recomendation or review section */
+.slider-items {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.slide-item {
+  width: 310px;
+  background: var(--white);
+  padding: 25px;
+}
+.slide-item i {
+  color: var(--yellow);
+  margin-right: 10px;
+}
+.review-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  color: var(--black);
+  margin: 18px 0;
+}
+.review-details {
+  font-size: 15px;
+  line-height: 24px;
+  color: var(--paragraph);
+  margin-bottom: 30px;
+}
+.review-profile {
+  display: flex;
+  align-items: center;
+}
+.review-profile img {
+  margin-right: 27px;
+}
+.person-name {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 123.6%;
+  color: var(--black);
+  margin-bottom: 5px;
+}
+.designation {
+  font-size: 15px;
+line-height: 24px;
+color: var(--paragraph);
+}
+.slider-navigation {
+  margin-top: 50px;
+  text-align: center;
+}
+.slider-navigation i {
+  margin-right: 10px;
+  font-size: .7rem;
+  cursor: pointer;
+}
+.slider-navigation i.active {
+  color: var(--yellow);
 }
