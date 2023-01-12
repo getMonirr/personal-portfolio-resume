@@ -1,0 +1,95 @@
+/* mobile device */
+@media screen and (max-width: 576px) {
+  .profile-section {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+  /* layout */
+  .website-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 20px;
+  }
+  main {
+    grid-column: 1/-1;
+  }
+  /* hero section */
+  .hero-section {
+    text-align: center;
+    justify-content: center;
+  }
+  .hero-title {
+    width: min-content;
+    padding-bottom: 20px;
+  }
+  .hero-content > * {
+    margin: 0;
+  }
+  .hero-description {
+    display: none;
+  }
+  .hero-section img {
+    display: none;
+  }
+  /* services-section */
+  .services-section {
+    margin: 0;
+  }
+  .section-description {
+    padding: 0 50px;
+  }
+  .services-items,
+  .price-plans, .client-wrapper{
+    flex-direction: column;
+    align-items: center;
+  }
+  .slider-items {
+    overflow: hidden;
+  }
+  .edu-item {
+    flex-direction: column;
+    align-items: start;
+    background: var(--white);
+    padding: 45px 35px;
+  }
+  .certification {
+    width: 100%;
+  }
+  .course-details {
+    width: unset;
+    margin-bottom: 15px;
+  }
+  .course-name, .certification-title {
+    margin-bottom: 15px;
+  }
+  .edu-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: unset;
+    padding: 0;
+  }
+  .edu-items hr {
+    display: none;
+  }
+  .filter-menu ul {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .blog-content ,.contact-section {
+    flex-direction: column;
+  }
+  .message, .contact-info {
+    width: 100%;
+  }
+  .blog img {
+    width: 100%;
+  }
+  .portfolio-item {
+    max-width: 100%;
+  }
+  .client-wrapper img {
+    width: 50%;
+  }
+}
